@@ -11,6 +11,7 @@ import Header from './Components/Header';
 import Refer from './Components/Refer';
 import Support from './Components/Support';
 import Help from './Components/Help';
+import Register from './Components/Register';
 function App() {
   return (
     // <div>
@@ -32,6 +33,7 @@ function App() {
           <Route exact path='/refer' component={Refer} />
           <Route exact path='/support' component={Support} />
           <Route exact path='/help' component={Help} />
+          <Route exact path='/register' component={Register}/>
         </Switch>
       </div>
     </Router>
